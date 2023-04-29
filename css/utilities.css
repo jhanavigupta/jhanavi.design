@@ -110,6 +110,7 @@ h2::selection {
 
 /* Project cards */
 .card {
+  height: 100%;
   padding: 1rem;
   background: var(--card-background);
   color: #ffffff;
