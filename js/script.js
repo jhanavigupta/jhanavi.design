@@ -20,6 +20,7 @@ navLink.forEach((n) => n.addEventListener("click", closeMenu));
 function closeMenu() {
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
+  navContainer.classList.remove("active");
 }
 
 // Event Listeners: Handling toggle event
