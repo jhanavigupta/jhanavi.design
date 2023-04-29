@@ -117,6 +117,7 @@ body {
 }
 
 .fas.fa-arrow-right {
+  transform: rotate(-45deg);
   margin-left: 0.5rem;
   font-size: 0.9rem;
 }
@@ -341,7 +342,6 @@ body {
 
 .container-gallery{
   width: 100%;
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
