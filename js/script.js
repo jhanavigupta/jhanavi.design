@@ -35,17 +35,17 @@ toggleSwitch.addEventListener("change", switchTheme, false);
 
 //  Store color theme for future visits
 
-function setThemeAttributeForAboutPage(theme) {
-  if(location.pathname === '/about.html') {
-    const page = document.querySelector('#about-page');
-    page.setAttribute("data-theme", theme);
-  }
-}
+// function setThemeAttributeForAboutPage(theme) {
+//   if(location.pathname === '/about.html') {
+//     const page = document.querySelector('#about-page');
+//     page.setAttribute("data-theme", theme);
+//   }
+// }
 
 function switchTheme(e) {
   const theme = e.target.checked? 'dark' : 'light';
   document.documentElement.setAttribute("data-theme", theme);
-  setThemeAttributeForAboutPage(theme);
+  // setThemeAttributeForAboutPage(theme);
   localStorage.setItem("theme", theme);
 
   // if (e.target.checked) {
