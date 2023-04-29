@@ -364,10 +364,12 @@ body {
 }
 
 .gallery img:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  box-shadow: 0 0 11px rgba(33,33,33,.6); 
 }
 
-
+.gallery a {
+  min-height: 282px;
+}
 
 
 .ds-about-section{ padding-top: 60px; padding-bottom: 120px; }
