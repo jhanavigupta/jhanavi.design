@@ -35,14 +35,27 @@ toggleSwitch.addEventListener("change", switchTheme, false);
 
 //  Store color theme for future visits
 
-function switchTheme(e) {
-  if (e.target.checked) {
-    document.documentElement.setAttribute("data-theme", "dark");
-    localStorage.setItem("theme", "dark"); //add this
-  } else {
-    document.documentElement.setAttribute("data-theme", "light");
-    localStorage.setItem("theme", "light"); //add this
+function setThemeAttributeForAboutPage(theme) {
+  if(location.pathname === '/about.html') {
+    const page = document.querySelector('#about-page');
+    page.setAttribute("data-theme", theme);
   }
+}
+
+function switchTheme(e) {
+  const theme = e.target.checked? 'dark' : 'light';
+  document.documentElement.setAttribute("data-theme", theme);
+  setThemeAttributeForAboutPage(theme);
+  localStorage.setItem("theme", theme);
+
+  // if (e.target.checked) {
+  //   document.documentElement.setAttribute("data-theme", "dark");
+  //   localStorage.setItem("theme", "dark"); //add this
+
+  // } else {
+  //   document.documentElement.setAttribute("data-theme", "light");
+  //   localStorage.setItem("theme", "light"); //add this
+  // }
 }
 
 // Save user preference on load
