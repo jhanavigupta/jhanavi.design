@@ -19,7 +19,7 @@ body {
   /* padding: 2rem; */
   font-family: "Raleway", sans-serif;
   color: var(--color);
-  background: var(--bgColor);
+  background: var(--bg-primary);
 }
 
 .timelinemain h1 {
@@ -117,7 +117,7 @@ body {
   position: absolute;
   width: 2rem;
   aspect-ratio: 1;
-  background: var(--bg-primary);
+  background: var(--bgColor);
   border: 0.3rem solid var(--accent-color);
   border-radius: 50%;
   top: 50%;
