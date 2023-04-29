@@ -1,11 +1,15 @@
 const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+// const navMenu = document.querySelector(".nav-menu");
+// const navItems = document.querySelector('.nav-item');
+const navContainer = document.querySelector('.navbar .container');
 
 hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
   hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
+  navContainer.classList.toggle("active");
+  // navMenu.classList.toggle("active");
+  // navItems.classList.toggle("active");
 }
 
 // Close navbar when link is clicked
@@ -43,7 +47,7 @@ toggleSwitch.addEventListener("change", switchTheme, false);
 // }
 
 function switchTheme(e) {
-  const theme = e.target.checked? 'dark' : 'light';
+  const theme = e.target.checked ? 'dark' : 'light';
   document.documentElement.setAttribute("data-theme", theme);
   // setThemeAttributeForAboutPage(theme);
   localStorage.setItem("theme", theme);
