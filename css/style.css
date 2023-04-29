@@ -98,10 +98,19 @@ body {
 }
 
 .navbar .nav-link {
-  margin: 0 1rem;
   font-size: 0.8rem;
   font-weight: var(--weight-semibold);
 }
+
+.navbar .email {
+  width: 30px;
+  margin: 0;
+}
+
+.navbar .email-link {
+  margin-left: 0.875rem;
+}
+
 
 .navbar #logo img {
   display: block;
