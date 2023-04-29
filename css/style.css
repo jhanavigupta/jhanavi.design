@@ -43,6 +43,10 @@
   --shadow: 0 2px 10px rgba(95, 95, 95, 0.2);
 }
 
+[data-theme="dark"] .email {
+  filter: invert(1);
+}
+
 html {
   font-size: 100%;
   scroll-behavior: smooth;
