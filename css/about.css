@@ -25,7 +25,7 @@ body {
 .timelinemain h1 {
   text-align: center;
   padding: 2rem;
-  color: (--text-color);
+  color: var(--text-color);
 }
 
 .Why{
@@ -36,7 +36,7 @@ body {
 .Why h1 {
     text-align: center;
     padding: 0.rem;
-    color: (--text-color);
+    color: var(--text-color);
 }
 
 
