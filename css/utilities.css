@@ -141,32 +141,32 @@ h2::selection {
 
 /* Project Images */
 
-/* Project 5 */
-a:nth-child(5) .card {
-  background: url(../assets/project/PLANET\ COVER.png) center center/cover;
-}
+
 
 /* project 1 */
 a:nth-child(1) .card {
-  background: url(../assets/project/Project\ 1.png) center center/cover;
+  background: url(../assets/project/PLANET\ COVER.png) center center/cover;
 }
 
 /* Project 2 */
 a:nth-child(2) .card {
-  background: url(../assets/project/Project\ 6.png) center center/cover;
+  background: url(../assets/project/Project\ 1.png) center center/cover;
 }
 
 /* Project 3 */
 a:nth-child(3) .card {
-  background: url(../assets/project/project\ 3.png) center center/cover;
+  background: url(../assets/project/Project\ 6.png) center center/cover;
 }
 
 /* Project 4 */
 a:nth-child(4) .card {
-  background: url(../assets/project/Project\ 3.png) center center/cover;
+  background: url(../assets/project/project\ 3.png) center center/cover;
 }
 
-
+/* Project 5 */
+a:nth-child(5) .card {
+  background: url(../assets/project/Project\ 3.png) center center/cover;
+}
 
 /* Project 6 */
 a:nth-child(6) .card {
