@@ -9,8 +9,8 @@
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #800080;
-  --secondary-color: #800080;
+  --primary-color: #FFCD42;
+  --secondary-color: #FFCD42;
   --bg-primary: #ffffff;
   --text-color: #222222;
   --text-color-two: #ffffff;
@@ -32,7 +32,7 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: #800080;
+  --primary-color: #FFCD42;
   --secondary-color: #060606;
   --bg-primary: #000000;
   --text-color: #ffffff;
@@ -438,7 +438,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 16px;
-  border-bottom: 3px solid #800080;
+  border-bottom: 3px solid #FFCD420;
   padding-bottom: 7px;
   margin-bottom: 23px;
 }
@@ -458,14 +458,14 @@ body {
   line-height: 13px;
   font-weight: 600;
   letter-spacing: 3px;
-  color: #800080;
+  color: #FFCD42;
   padding: 17px 30px;
-  border: 2px solid #800080;
+  border: 2px solid #FFCD42;
   border-radius: 60px;
 }
 
 .ds-button:hover {
-  background-color: #800080;
+  background-color: #FFCD42;
   color: #FFF;
 }
 
