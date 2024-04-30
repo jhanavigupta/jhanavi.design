@@ -9,8 +9,8 @@
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #ffcd42;
-  --secondary-color: #ffd35c;
+  --primary-color: #800080;
+  --secondary-color: #800080;
   --bg-primary: #ffffff;
   --text-color: #222222;
   --text-color-two: #ffffff;
@@ -32,8 +32,8 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: #ffcd42;
-  --secondary-color: #ffd35c;
+  --primary-color: #800080;
+  --secondary-color: #800080;
   --bg-primary: #000000;
   --text-color: #ffffff;
   --text-color-two: #222222;
@@ -438,7 +438,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 16px;
-  border-bottom: 3px solid #ffcd42;
+  border-bottom: 3px solid #800080;
   padding-bottom: 7px;
   margin-bottom: 23px;
 }
@@ -458,14 +458,14 @@ body {
   line-height: 13px;
   font-weight: 600;
   letter-spacing: 3px;
-  color: #ffcd42;
+  color: #800080;
   padding: 17px 30px;
-  border: 2px solid #ffcd42;
+  border: 2px solid #800080;
   border-radius: 60px;
 }
 
 .ds-button:hover {
-  background-color: #ffcd42;
+  background-color: #800080;
   color: #FFF;
 }
 
